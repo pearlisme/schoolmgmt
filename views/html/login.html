@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>WELCOME TO SCHOOL DASHBOARD</title>
+
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+        <link rel="stylesheet" href="views/css/style.css">
+    </head>
+
+    <body class="login-colour row centerFlex">
+        <div class="col s6">
+            <div class="card-panel">
+                <div class="row">
+                    <div class="col s12 center-horizontal">
+                        <img src="https://goodlogo.com/images/logos/rioja_logo_3046.gif" style="width:150px;height:62px;">
+                    </div>
+                    <h4 class="col s12 title center-horizontal">LOGIN</h4>
+                    <div class="col s12 row">
+                        <div class="col s12 row">
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">account_circle</i>
+                                <input id="emp_id" type="number" />
+                                <label for="emp_id">Employee ID</label>
+                            </div>
+                            <div class="input-field col s12">
+                                <i class="material-icons prefix">lock_outline</i>
+                                <input id="emp_password" type="password" />
+                                <label for="emp_password">Password</label>
+                            </div>
+                        </div>
+                        <div class="row col s12">
+                            <div class="col s12 center-horizontal">
+                                <button id="login" type="button" class="btn red darken-4 waves-effect waves-light">Login</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="warning_modal" class="modal modal-fixed-footer modal-warning">
+            <div class="modal-content">
+                <h4 class="title center-align">Warning</h4>
+                <p class="center-align" id="warning"></p>
+            </div>
+            <div class="modal-footer">
+                <a class="modal-close btn-flat waves-effect waves-light"><b>Okay</b></a>
+            </div>
+        </div>
+        <div id="progress_modal" class="modal modal-warning">
+            <div class="modal-content">
+                <h4 class="title center-align">Logging in</h4>
+                <p class="center-align" id="progress"></p>
+            </div>
+        </div>
+        <script src="/js/login.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.form/3.51/jquery.form.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
+    </body>
+
+</html>

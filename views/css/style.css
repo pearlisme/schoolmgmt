@@ -1,0 +1,126 @@
+.padding {
+    padding: 50px;
+}
+.padding-login {
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-bottom: 75px;
+    padding-top: 125px;
+}
+.centerFlex {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.input-field .prefix.active {
+    color: #B71C1C;
+}
+.input-field {
+    vertical-align: middle;
+}
+.vertical-parent {
+    display: table;
+}
+.vertical-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+.center-vertical {
+    vertical-align: middle;
+}
+.center-horizontal {
+    display: flex;
+    justify-content: center;
+}
+.center-resource-button {
+    margin: auto;
+    display: block;
+}
+.title {
+    color: #B71C1C;
+}
+.login-colour {
+    background-color: #3993C0;
+}
+.select-dropdown li span {
+    color: #B71C1C;
+}
+.input-field input[type=text]:focus+ label {
+    color: #B71C1C;
+}
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.input-field input[type=number]:focus+ label {
+    color: #B71C1C;
+}
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.input-field input[type=password]:focus+ label {
+    color: #B71C1C;
+}
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.input-field input[type=file]:focus+ label {
+    color: #B71C1C;
+}
+.input-field input[type=file]:focus {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.input-field textarea.materialize-textarea:focus+ label {
+    color: #B71C1C;
+}
+.input-field textarea.materialize-textarea:focus {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #B71C1C;
+    box-shadow: 0 1px 0 0 #B71C1C;
+}
+.switch label input[type="checkbox"]:checked+ .lever::after {
+    background-color: #B71C1C;
+}
+.switch label input[type="checkbox"]:checked+ .lever {
+    background-color: #FF5252;
+}
+.pointer {
+    cursor: pointer;
+}
+.modal-warning {
+    width: 30%;
+    max-height: 40%;
+}
+.checkbox-red[type="checkbox"].filled-in:checked+ label:after {
+    border: 2px solid #B71C1C;
+    background-color: #B71C1C;
+}
+.picker__date-display, .picker__weekday-display, .button-color, .picker__day--selected, .picker__day--selected:hover, .picker--focused .picker__day--selected, .body-colour {
+    background-color: #B71C1C;
+}
+.picker__today, .picker__close, .picker__day.picker__day--today, .btn-flat {
+    color: #B71C1C;
+}
+input[type="checkbox"]:checked+label:before {
+    border-right: 2px solid #B71C1C;
+    border-bottom: 2px solid #B71C1C;
+}
+nav .brand-logo {
+    margin-left: 30px;
+    color: #B71C1C;
+}
+nav ul li a {
+    color: #B71C1C;
+}
+p label {
+    color: black;
+}
