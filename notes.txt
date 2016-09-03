@@ -3,3 +3,10 @@
 
    run the app:
      $ DEBUG=workspace:* npm start
+
+
+git commands:
+
+#git add .                -To add the dirty files to Tracker
+#git commit -m "message"  -To commit the files
+#git pull                 -To pull the changes from the repository
