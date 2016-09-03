@@ -87,4 +87,9 @@
     color: #ffffff;
     background-color: #0099cc;
   }
+}#logo {
+	background-size: cover;
+	background-position: 0px 0%;
+	background-repeat: no-repeat;
+	padding-right: 0px;
 }
